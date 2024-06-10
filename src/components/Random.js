@@ -1,6 +1,7 @@
 import Spinner from './Spinner';
 import useGif from '../hooks/useGif';
 
+
 const Random = () => {
 
   const {gif, loading, fetchData} = useGif();
